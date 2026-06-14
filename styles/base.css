@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*, *::after, *::before {
+    box-sizing:border-box;  
+}
+
+*{
+	margin: 0;
+    padding: 0;
+	line-height: calc(1em + 0.5rem);
+}
+
+html{
+	scroll-behavior: smooth;
+
+    color-scheme: light;
+    --colour-background: light-dark(#222, #EDE7D5);
+    --colour-text: light-dark(#EDE7D5, #222);
+    
+    font-family: 'Inria Serif', sans-serif;
+    color: var(--colour-text);
+    background-color: var(--colour-background);
+
+    --size-xxs: 0.5rem;
+	--size-xs: 0.75rem;
+	--size-sm: 0.875rem;
+	--size-base: 1rem;
+	--size-lg: 1.125rem;
+	--size-xl: 1.25rem;
+	--size-2xl: 1.5rem;
+	--size-3xl: 1.875rem;
+	--size-4xl: 2.25rem;
+	--size-5xl: 3rem;
+	--size-6xl: 3.75rem;
+	--size-7xl: 4.5rem;
+	--size-8xl: 6rem;
+	--size-9xl: 8rem;
+	--size-10xl: 10rem;
+}
+
+img,svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+button{
+	display: inline-block;
+	padding: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inria Serif', serif;
+    color: var(--colour-text);
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--size-sm);
+}
+
+/* .button-v1{
+    border: solid 2px var(--colour-primary-border);
+    background-color: var(--colour-primary);
+    color: var(--colour-background);
+    padding: var(--size-xxs) var(--size-2xl);
+    border-radius: var(--size-xxs);
+    
+    font-family: 'Anonymous Pro', sans-serif;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: var(--colour-primary-border);
+        scale: 95%;
+    }
+}
+
+.button-v2{
+    border: solid 2px var(--colour-secondary-border);
+    background-color: var(--colour-secondary);
+    color: var(--colour-text);
+    padding: var(--size-xxs) var(--size-2xl);
+    border-radius: var(--size-xxs);
+    
+    font-family: 'Anonymous Pro', sans-serif;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: var(--colour-secondary-border);
+        scale: 95%;
+    }
+
+} */
